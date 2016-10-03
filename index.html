@@ -2,22 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="app.js" charset="utf-8"></script>
     <link rel="stylesheet" href="styles.css">
-    <title></title>
+    <title>Color Box Maker</title>
   </head>
   <body>
-    <p id="red">Total red: 0</p>
-    <p id="yellow">Total yellow: 0</p>
-    <p id="green">Total green: 0</p>
-    <p id="blue">Total blue: 0</p>
-    
-    
-    <button class="color-button" data-color="red">Red</button>
-    <button class="color-button" data-color="yellow">Yellow</button>
-    <button class="color-button" data-color="green">Green</button>
-    <button class="color-button" data-color="blue">Blue</button>
-    
+    <p>Total red: <span id="redC"></span></p>
+    <p >Total yellow: <span id="yellowC"></span></p>
+    <p >Total green: <span id="greenC"></span></p>
+    <p >Total blue: <span id="blueC"></span></p>
+
+
+    <button class="color-button" data-color="red" id="red">Red</button>
+    <button class="color-button" data-color="yellow" id='yellow'>Yellow</button>
+    <button class="color-button" data-color="green" id="green">Green</button>
+    <button class="color-button" data-color="blue" id='blue'>Blue</button>
+
     <div class="container">
+
     </div>
   </body>
 </html>

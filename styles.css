@@ -5,18 +5,18 @@
   border: 1px solid black;
 }
 
-.red {
+#red {
   background-color: red;
 }
 
-.yellow {
+#yellow {
   background-color: yellow;
 }
 
-.green {
+#green {
   background-color: green;
 }
 
-.blue {
+#blue {
   background-color: blue;
 }
